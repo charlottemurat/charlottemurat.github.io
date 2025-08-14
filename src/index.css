@@ -1,13 +1,216 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(circle at 100%, #ffb0d7, #aab0e9, #edcbec);
+  /* background-image: radial-gradient(
+    farthest-corner at 40px 40px,
+    #e664a5 0%,
+    #9198e5 100%
+  ); */
+  height: 10000px;
+  position: relative
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Mackinac';
+  src: local('Mackinac'), url(../public/fonts/Fontspring-DEMO-P22Mackinac-Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'National';
+  src: local('National'), url(../public/fonts/NationalPark-VariableFont_wght.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Cursive';
+  src: local('Cursive'), url(../public/fonts/CedarvilleCursive-Regular.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Inknut';
+  src: local('Inknut'), url(../public/fonts/InknutAntiqua-Regular.ttf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Inknut-bold';
+  src: local('Inknut-bold'), url(../public/fonts/InknutAntiqua-Bold.ttf) format('opentype');
+}
+
+#p1 {
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+#title {
+  font-family: 'Inknut';
+  font-size: 80px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 150px;
+}
+
+#subtitle {
+  font-family: 'Cursive';
+  font-size: 23px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#title-container {
+  margin-bottom: 100px;
+}
+
+#p2 {
+  height: 100vh;
+  top: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.p-container {
+  height: 500px;
+  width: 1500px;
+}
+
+#p-title-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+#page-title {
+  font-family: 'Inknut';
+  font-size: 50px;
+  top: 30px;
+  margin-left: 30px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  width: 80vw;
+}
+
+@keyframes increase {
+  from {
+    width: 0;
+  }
+  to {
+      width: 57vw;
+  }
+}
+
+#page-title.visible::after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  margin-left: 40px;
+  animation: increase 2.5s; 
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#about-img-container {
+  display: flex;
+  justify-content: center; 
+}
+
+#about-container {
+  width: 750px;
+  height: 400px;
+  float: left
+}
+
+.about-item {
+  font-family: 'Inknut';
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.about-item:hover {
+  margin-left: 20px
+}
+
+.fade {
+  opacity: 0;
+}
+
+.fade.visible {
+  animation: fadeIn 2s ease-out forwards;
+}
+
+#about1 {
+  animation-delay: 0.5s;
+}
+
+#about2 {
+  animation-delay: 1s;
+}
+
+#about3 {
+  animation-delay: 1.5s;
+}
+
+#about4 {
+  animation-delay: 2s;
+}
+
+#img-container {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.img-text {
+  font-family: 'Inknut';
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+#about-img {
+  width: 300px;
+  height: auto;
+  transition: 0.3s;
+}
+
+#about-img:hover {
+  opacity: 70%;
+}
+
+#img-container:hover .img-text {
+  opacity: 1;
+  visibility: visible;
+}
+
+#p3 {
+  height: 100vh;
+  top: 200vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.cloud {
+
+}
+
+.c1 {
+  width: 400px
 }

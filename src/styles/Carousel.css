@@ -1,0 +1,141 @@
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-container {
+  position: relative;
+  width: 750px;
+  height: 270px;
+  background-color: rgb(250, 245, 238);
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 5px #585858;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+
+.in {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.out {
+  opacity: 1;
+}
+
+.project-title {
+  font-family: 'Inknut-bold';
+  font-weight: 14px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.project-desc {
+  font-family: 'Inknut';
+  font-size: 13px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  line-height: 30px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.project-links {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 15px;
+  display: flex;
+}
+
+.project-tool {
+  position: relative;
+  background-color: #a11f81;
+  border-radius: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px; 
+  font-family: 'Inknut';
+  font-size: 13px;
+  margin-right: 15px;
+  color: white;
+  padding: 0 12px;
+}
+
+.project-link {
+  font-family: 'Inknut-bold';
+  font-size: 13px;
+  margin-left: auto; 
+  margin-right: 30px;
+}
+
+.project-link:link {
+  color: rgb(101, 33, 101);
+  background-color: transparent;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+.project-link:visited {
+  color: rgb(223, 96, 117);
+  background-color: transparent;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+.arrow {
+  position: relative;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 2;
+  user-select: none;
+}
+
+.prev {
+  right: 460px;
+  top: 155px
+}
+
+.next {
+  left: 458px;
+  bottom: 155px
+}
+
+.indicator-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  background-color: #a11f8062;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.indicator.active {
+  width: 20px;
+  height: 20px;
+  background-color: #a11f81;
+}

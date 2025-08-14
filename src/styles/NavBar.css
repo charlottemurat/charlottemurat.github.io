@@ -1,0 +1,46 @@
+.navbar-wrapper {
+  position: fixed;
+  width: 90%;
+  height: 50px;
+  z-index: 1000;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0%);
+  bottom: 50px
+}
+
+.navbar {
+  position: fixed;
+  background-color: #ffffff;
+  color: rgb(43, 43, 43);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  transition: opacity 0.3s ease;
+  opacity: 80%;
+  border-radius: 80px;
+  filter: drop-shadow(5px 5px 4px #262626);
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0%);
+  width: 700px;
+}
+
+.hidden .navbar {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Reappear on hover */
+.navbar-wrapper:hover .navbar {
+  opacity: 1;
+  pointer-events: auto;
+} 
+
+.navbar a {
+  color: rgb(41, 41, 41);
+  text-decoration: none;
+  padding: 0 10px;
+  font-family: 'Inknut';
+}
