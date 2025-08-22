@@ -23,15 +23,22 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const scroll = (location) => {
+    window.scrollTo({
+      top: window.innerHeight * location,
+      behavior: 'smooth'
+    })
+  }
+
   return (
     <div className={`navbar-wrapper ${isHidden ? "hidden" : ""}`}>
       <nav className="navbar">
-        <a href="/about">about me</a>
-        <a href="/projects">projects</a>
-        <a href="/experience">experience</a>
-        <a href="/leadership">leadership</a>
-        <a href="/resume">resume</a>
-        <a href="/contact">contact</a>
+        <a href="/about" onClick={(e) => { e.preventDefault(); scroll(1); }}>about me</a>
+        <a href="/projects" onClick={(e) => { e.preventDefault(); scroll(2); }}>projects</a>
+        <a href="/experience" onClick={(e) => { e.preventDefault(); scroll(3); }}>experience</a>
+        <a href="/leadership" onClick={(e) => { e.preventDefault(); scroll(4); }}>leadership</a>
+        <a href="/resume" onClick={(e) => { e.preventDefault(); scroll(5); }}>resume</a>
+        <a href="/contact" onClick={(e) => { e.preventDefault(); scroll(6); }}>contact</a>
       </nav>
     </div>
   );

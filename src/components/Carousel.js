@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Carousel.css";
+import useInView from "../components/useInView";
 
 const projects = [
   {
@@ -22,7 +23,7 @@ const projects = [
   },
   {
     title: "LiveListing Mobile App",
-    desc: "This prototype, LiveListing, addresses the massive waste generated during annual student move-in and move-out periods by connecting students moving out with those moving in, reducing landfill contributions and overconsumption. The app enables real-time messaging, item search, and location- and time-based recommendations, making it easier for students to find and exchange items when and where they need them. ",
+    desc: "This prototype, LiveListing, addresses the massive waste generated during annual student move-in and move-out periods by connecting students moving out with those moving in, reducing landfill contributions and overconsumption. This prototype earned the Most Innovative Communication Tool prize at the 2024 HackHer Hackathon hosted by Queen's Women in Computing!",
     tools: ["TypeScript", "React Native"],
     link: ["https://github.com/charlottemurat/live-listing"]
   },
@@ -34,7 +35,7 @@ const projects = [
   },
   {
     title: "Finance Planner",
-    desc: "Developed a Python script in Jupyter Notebook to plan out my finances. The script calculates TFSA contribution room based on birth year and uses SciPy to optimize the amount of money that can be spend each month and the amount that can be added to my TFSA. This tool provides a clear, data-driven budgeting strategy, helping to maximize savings while maintaining manageable monthly expenses.",
+    desc: "Developed a Python script in Jupyter Notebook to plan out my finances. The script calculates TFSA contribution room based on birth year and uses SciPy to optimize the amount of money that can be spent each month and the amount that can be added to my TFSA. This tool provides a clear, data-driven budgeting strategy, helping to maximize savings while maintaining manageable monthly expenses.",
     tools: ["Python", "SciPy"],
     link: ["https://github.com/charlottemurat/finance-planner"]
   },
@@ -49,6 +50,7 @@ const projects = [
 export default function Carousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [transitionIn, setTransitionIn] = useState(false);
+  const [carouselRef, carouselInView] = useInView();
 
   const nextSlide = () => {
     setCurrentIndex((prev) => (prev + 1) % projects.length);
@@ -69,7 +71,7 @@ export default function Carousel() {
   const currentProject = projects[currentIndex];
 
   return (
-    <div className="carousel-container">
+    <div ref={carouselRef} className={`carousel-container fade ${carouselInView ? "visible" : ""}`}>
       <button className="arrow prev" onClick={prevSlide}>
         &#8592;
       </button>

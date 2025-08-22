@@ -1,0 +1,83 @@
+.pol-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pol-top-row {
+  margin-top: 30px;
+  display: flex;
+}
+
+.pol-bottom-row {
+  position: relative;
+  bottom: 60px;
+  display: flex;
+}
+
+#pol-frame {
+  width: 200px;
+  position: relative;
+}
+
+.pol-img {
+  position: absolute;
+  width: 160px;
+  left: 18px;
+  margin-top: 12px;
+  transition: opacity 0.3s ease;
+}
+
+.pol-img-container {
+  position: relative;
+  text-align: center;
+  width: 200px;
+  height: 230px;
+}
+
+.pol-img-text {
+  font-family: 'Inknut';
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 10px;
+  width: 140px;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.pol-desc {
+  font-family: 'Inknut';
+  font-size: 10px;
+  line-height: 1.5;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 125px;
+}
+
+.pol-img-container:hover .pol-img {
+  opacity: 0;
+}
+
+#one {
+  animation-delay: 0s;
+}
+
+#two {
+  animation-delay: 1s;
+}
+
+#three {
+  animation-delay: 2s;
+}
+
+#four {
+  animation-delay: 0.5s;
+}
+
+#five {
+  animation-delay: 1.5s;
+}
