@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/main/static/css/main.8dde8864.css",
+    "main.js": "/main/static/js/main.6fdef81c.js",
+    "static/js/453.253ccfac.chunk.js": "/main/static/js/453.253ccfac.chunk.js",
+    "static/media/oec.JPG": "/main/static/media/oec.f1c25d38010a0f12dbe2.JPG",
+    "static/media/spons.jpg": "/main/static/media/spons.76a2f80c517769b2af29.jpg",
+    "static/media/pres-team.JPG": "/main/static/media/pres-team.5f8cad89f2b5d82573ad.JPG",
+    "static/media/cv-cmurat.jpg": "/main/static/media/cv-cmurat.1f4feac97dc1fb9ff297.jpg",
+    "static/media/InknutAntiqua-Bold.ttf": "/main/static/media/InknutAntiqua-Bold.bc9e8c59d28b7a04c7b8.ttf",
+    "static/media/InknutAntiqua-Regular.ttf": "/main/static/media/InknutAntiqua-Regular.0490c4cc5dba1fabcf51.ttf",
+    "static/media/funds.JPG": "/main/static/media/funds.d8160a12812a40336cf5.JPG",
+    "static/media/cloud3.png": "/main/static/media/cloud3.2f1da947af3ab719e376.png",
+    "static/media/NationalPark-VariableFont_wght.ttf": "/main/static/media/NationalPark-VariableFont_wght.e9413cdf4ed6a82d7e82.ttf",
+    "static/media/qsc.JPG": "/main/static/media/qsc.74a40d382ff50b34ef17.JPG",
+    "static/media/snolab.JPG": "/main/static/media/snolab.cec72b8aa437d2c4d67b.JPG",
+    "static/media/polaroid-frame.png": "/main/static/media/polaroid-frame.73d52ddd8f880f9d2576.png",
+    "static/media/CedarvilleCursive-Regular.ttf": "/main/static/media/CedarvilleCursive-Regular.a669593f51bb81ad0cc1.ttf",
+    "static/media/cloud2.png": "/main/static/media/cloud2.ee15e08a189bfc1bd43e.png",
+    "static/media/Fontspring-DEMO-P22Mackinac-Bold.otf": "/main/static/media/Fontspring-DEMO-P22Mackinac-Bold.5e4ba06b47ea2c04723e.otf",
+    "static/media/cloud1.png": "/main/static/media/cloud1.e59f45afe4ab3e2e3371.png",
+    "index.html": "/main/index.html",
+    "main.8dde8864.css.map": "/main/static/css/main.8dde8864.css.map",
+    "main.6fdef81c.js.map": "/main/static/js/main.6fdef81c.js.map",
+    "453.253ccfac.chunk.js.map": "/main/static/js/453.253ccfac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8dde8864.css",
+    "static/js/main.6fdef81c.js"
+  ]
+}
