@@ -23,7 +23,7 @@ const projects = [
   },
   {
     title: "LiveListing Mobile App",
-    desc: "This prototype, LiveListing, addresses the massive waste generated during annual student move-in and move-out periods by connecting students moving out with those moving in, reducing landfill contributions and overconsumption. This prototype earned the Most Innovative Communication Tool prize at the 2024 HackHer Hackathon hosted by Queen's Women in Computing!",
+    desc: "This prototype, LiveListing, addresses the massive waste generated during annual student move-in and move-out periods by connecting students moving out with those moving in, reducing landfill contributions and overconsumption. This project earned the Most Innovative Communication Tool prize at the 2025 HackHer Hackathon hosted by Queen's Women in Computing!",
     tools: ["TypeScript", "React Native"],
     link: ["https://github.com/charlottemurat/live-listing"]
   },

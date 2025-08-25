@@ -62,13 +62,13 @@ body {
 .c2 {
   width: 400px;
   right: 100vw;
-  top: -10px;
+  top: -0.1vh;
 }
 
 .c3 {
   width: 400px;
   right: 100vw;
-  top: 500px;
+  top: 50vh;
   animation-delay: -20s;
 }
 
@@ -76,27 +76,27 @@ body {
   width: 400px;
   right: 100vw;
   animation-delay: -15s;
-  top: 150px;
+  top: 15vh;
 }
 
 .c5 {
   width: 400px;
   right: 100vw;
-  top: 430px;
-  animation-delay: -35s;
+  top: 43vh;
+  animation-delay: -40s;
 }
 
 .c6 {
   width: 400px;
   right: 100vw;
-  top: 400px;
+  top: 60vh;
   animation-delay: -5s;
 }
 
 .c7 {
   width: 400px;
   right: 100vw;
-  top: 500px;
+  top: 70vh;
   animation-delay: -20s;
 }
 
