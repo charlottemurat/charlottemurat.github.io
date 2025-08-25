@@ -51,9 +51,9 @@ function App() {
             </div>
             <div id="about-img-container">
             <div id="about-container">
-              <p id="about1" className={`about-item fade ${aboutInView ? "visible" : ""}`}>➵ &nbsp;&nbsp;&nbsp;&nbsp;Currently a 5G Software Developer (Co-op) at Ericsson</p>
-              <p id="about2" className={`about-item fade ${aboutInView ? "visible" : ""}`}>➵ &nbsp;&nbsp;&nbsp;&nbsp;Engineering Physics + Computing student at Queen's University</p>
-              <p id="about3" className={`about-item fade ${aboutInView ? "visible" : ""}`}>➵ &nbsp;&nbsp;&nbsp;&nbsp;President of Queen's Women in Science & Engineering (WiSE)</p>
+              <p id="about1" className={`about-item fade ${aboutInView ? "visible" : ""}`}>➵ &nbsp;&nbsp;&nbsp;&nbsp;Engineering Physics + Computing student at Queen's University</p>
+              <p id="about2" className={`about-item fade ${aboutInView ? "visible" : ""}`}>➵ &nbsp;&nbsp;&nbsp;&nbsp;President of Queen's Women in Science & Engineering (WiSE)</p>
+              <p id="about3" className={`about-item fade ${aboutInView ? "visible" : ""}`}>➵ &nbsp;&nbsp;&nbsp;&nbsp;Three years of professional programming experience</p>
               <p id="about4" className={`about-item fade ${aboutInView ? "visible" : ""}`}>➵ &nbsp;&nbsp;&nbsp;&nbsp;I love going to the gym & used to be a rhythmic gymnast!</p>
             </div>
             <div id="img-container" className={`fade ${aboutInView ? "visible" : ""}`}>
