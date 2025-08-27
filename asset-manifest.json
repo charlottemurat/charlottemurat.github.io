@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.01db0a10.css",
-    "main.js": "/static/js/main.d461e57b.js",
+    "main.js": "/static/js/main.788a4499.js",
     "static/js/453.253ccfac.chunk.js": "/static/js/453.253ccfac.chunk.js",
     "static/media/oec.JPG": "/static/media/oec.f1c25d38010a0f12dbe2.JPG",
     "static/media/spons.jpg": "/static/media/spons.76a2f80c517769b2af29.jpg",
     "static/media/pres-team.JPG": "/static/media/pres-team.5f8cad89f2b5d82573ad.JPG",
-    "static/media/cv-cmurat.jpg": "/static/media/cv-cmurat.ec20333231ced7ebeb40.jpg",
+    "static/media/cv-cmurat.jpg": "/static/media/cv-cmurat.2717803069cf032898be.jpg",
     "static/media/InknutAntiqua-Bold.ttf": "/static/media/InknutAntiqua-Bold.bc9e8c59d28b7a04c7b8.ttf",
     "static/media/InknutAntiqua-Regular.ttf": "/static/media/InknutAntiqua-Regular.0490c4cc5dba1fabcf51.ttf",
     "static/media/funds.JPG": "/static/media/funds.d8160a12812a40336cf5.JPG",
@@ -21,11 +21,11 @@
     "static/media/cloud1.png": "/static/media/cloud1.e59f45afe4ab3e2e3371.png",
     "index.html": "/index.html",
     "main.01db0a10.css.map": "/static/css/main.01db0a10.css.map",
-    "main.d461e57b.js.map": "/static/js/main.d461e57b.js.map",
+    "main.788a4499.js.map": "/static/js/main.788a4499.js.map",
     "453.253ccfac.chunk.js.map": "/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01db0a10.css",
-    "static/js/main.d461e57b.js"
+    "static/js/main.788a4499.js"
   ]
 }
